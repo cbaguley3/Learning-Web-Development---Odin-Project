@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+
+body {
+    font-family: 'Roboto';
+    font-size: 22px;
+    margin: 1px;
+    padding: 2px;
+
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    
+  }
+
+#smallphoto {
+    height: 200px;
+    width: 90%;
+    border-radius: 15px;
+    border: 2px solid #3882F6;
+    margin: 1px;
+    flex-grow: 1;
+    justify-content: space-around;
+    
+}
+
+#top-div {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+    padding: 45px;
+}
+
+#middle-div {
+    background-color: #EBEBEB;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+#div3 {
+    padding: 105px;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    margin-top: 10px;
+    margin: 55px;
+}
+
+#span1 {
+    font-weight: normal;
+}
+
+#footer {
+    padding-bottom: 45px;
+}
